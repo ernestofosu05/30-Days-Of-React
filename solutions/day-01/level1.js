@@ -1,0 +1,13 @@
+let arr = [];
+let arr1 = [1,2,3,4,5,6];
+let arrLength = arr.length;
+let firstItem = arr1[0];
+let middleItem = arr1[Math.round(arr1.length / 2)];
+let lastItem = arr1[arr1.length.length - 1];
+let itCompanies = ['Facebook','Google','Microsoft','Apple','IBM', 'Oracle', 'Amazon'];
+console.log(itCompanies);
+console.log(itCompanies.length);
+console.log(itCompanies.split(" "));
+console.log(itCompanies.indexOf("StreetShop"));
+itCompanies.splice(itCompanies[-1]);
+itCompanies.splice(0);
